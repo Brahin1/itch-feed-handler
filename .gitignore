@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# cocotb / Icarus
+tb/sim_build*/
+tb/results.xml
+*.vcd
+*.fst
+*.vvp
+
+# Vivado
+vivado/build/
+*.jou
+vivado*.log
+webtalk*
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# Data (Nasdaq files are multi-GB)
+*.gz
+*.bin
+*.pcap
+*.mold
